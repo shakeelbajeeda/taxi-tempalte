@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Taxi Booking</title>
+	<style type="text/css">
+	body{
+		background: white;
+		margin: 0px;
+	}
+		.container{
+			height: auto;
+			width: 100%;
+		}
+		.header{
+			height: 50px;
+		    width: 100%;
+		    background: #1a1a1a;
+		    color: white;
+		    position: fixed;
+		}
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+		li {
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+		li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px 20px 25px;
+    text-decoration: none;
+    margin-top: 7px;
+}
+		li a:hover {background-color: #111111;
+
+		}
+		.logo {
+			padding: 10px 0px 10px 0px;
+		}
+		.search{
+			padding: 20px 25px 20px 25px;
+			margin-top: 7px;
+		}
+		.book-now{
+			width: 70%;
+			height: auto;
+			background: yellow;
+		}
+		.row {
+			width: 100%;
+			height: auto;
+			display: inline-flex;
+			background: #1a1a1a;
+		}
+		.col-md-6 {
+			width: 50%;
+		}
+		#textboxid
+{
+	background: #e1e1e1;
+      width: 80%;
+      border: 3px solid #aaa;
+      border-radius: 4px;
+      margin: 8px 0;
+      outline: none;
+      padding: 8px;
+      box-sizing: border-box;
+      transition: 3s;
+      margin-left: 65px;
+      font-size: 15pt;
+
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+   margin-left: 420px;
+   border-radius: 10px;
+}
+.button1 {
+  background-color: #1a1a1a; 
+  color: white; 
+}
+html {
+  scroll-behavior: smooth;
+}
+.button1:hover {
+  background-color:#f8ca11;
+  color: white;
+}
+	.col-md-8{
+		width: 100%;
+		height: auto;
+	}
+	.col-md-4{
+		width: 33.33%;
+		height: auto;
+
+	}
+	.book-btn{
+		width: 18%;
+    float: left;
+    font-size: 18px;
+    color: white;
+    background-color: #f8ca11;
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 36px;
+    text-decoration: none;
+}
+.book-btn:hover{
+	background: black;
+	color: white;
+}
+.col-sm-8{
+           width: 100%;
+          height: auto;
+         display: inline-flex;
+	}
+	.link{
+		text-align:center; 
+		text-decoration: none;
+		color: white;
+	}
+	.link:hover{
+		color: orange;
+		
+	}
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+		<ul>
+			<li><img class="logo" src="images/logo.png"></li>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#Taxi">Taxi</a></li>
+			<li><a href="#Booking">Booking</a></li>
+			<li><a href="#Contact Us">Contact Us</a></li>
+			<li><img class="search" src="images/search-icon.png"></li>
+			<li><img class="search" src="images/toggle-menu.png" class="toggle_menu"></li>
+			
+
+		</ul>
+		</div>	
+		<div class="extra-for-fixed" style="height:120px;width: 100%;" id="home"></div>
+
+		<div class="row" style="margin-top: -37px;">
+			<div class="col-md-6">
+				<div style="float: right;background:#f4db31;padding: 0px 50px 0px 50px;color: white; border-radius: 10px;">
+					<h2 style="font-size: 41px;text-align: center;">Book Now</h2>
+					<p style="color: black;font-size: 39px;text-align: center;">(+71) 1234567890</p>
+				</div>
+				<div>
+	<img class="logo" src="images/img-1.png" style="height: 314px; margin-left: 27px;">
+    
+</div>
+			</div>
+			<div class="col-md-6">
+				<p style="color: white;margin-left: 20px;text-align: center; font-size: 30px;">Book a City Taxi to your destination in town</p>
+				<div style="background-color:white;width: 90%;margin-left: 30px;height: 370px;">
+					<p style="color: black;margin-left: 20px;text-align: center;font-size: 36px;">Your everyday travel partner</p>
+					<form>
+					<input type="text" name="" placeholder="PICKUP"  id="textboxid" autocomplete=""><br><br>
+					<input type="text" name="" placeholder="DROP"  id="textboxid" autocomplete=""><br><br>
+					<input type="text" name="" placeholder="WHEN"  id="textboxid" autocomplete=""><br>
+					<button class="button button1">SEARCH</button>
+					</form>
+				</div>
+				
+			</div>
+		</div><br><br><br><br>
+		<div class="row" style="background-color:#1a1a1a;">	
+			<div style="width:100%">
+					<p style="width: 100%; font-size: 50px;text-align: center;background-color: #1a1a1a;color: white;" >Our <span style="color:#f4db31 ;">Taxi</span></p>
+			</div>
+		</div>
+		<div class="row" style="background-color:#1a1a1a;">	
+
+			
+			<div class="col-md-4">
+				<div style="text-align: center;
+    background: white;
+    margin: 40px;height: auto;padding-bottom: 10px;">
+    <span style="
+    /* position: relative; */
+    width: 24px;
+    height: 22px;
+    padding: 17px;
+    display: inline-table;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    margin-top: -98px;
+    background: #f4db31;
+    border-radius: 100%;
+    ">01</span>
+					<p style="font-size:30px;">CAR 1</p>
+						<p style="font-size:25px; opacity: 0.7;">act that a reader will be<br> distracted</p>
+						<a href="#"><img src="images/img-2.png" ></a>
+
+				</div>
+				
+			</div>
+			<div class="col-md-4">
+				<div style="text-align: center;
+    background: white;
+    margin: 40px;height: auto;padding-bottom: 10px;">
+    <span style="
+    /* position: relative; */
+    width: 24px;
+    height: 22px;
+    padding: 17px;
+    display: inline-table;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    margin-top: -98px;
+    background: #f4db31;
+    border-radius: 100%;
+    ">02</span>
+					<p style="font-size:30px;">CAR 2</p>
+						<p style="font-size:25px; opacity: 0.7;">act that a reader will be<br> distracted</p>
+						<a href="#"><img src="images/img-2.png" ></a>
+
+				</div>
+				
+			</div>
+			<div class="col-md-4">
+				<div style="text-align: center;
+    background: white;
+    margin: 40px;height: auto;padding-bottom: 10px;">
+    <span style="
+    /* position: relative; */
+    width: 24px;
+    height: 22px;
+    padding: 17px;
+    display: inline-table;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    margin-top: -98px;
+    background: #f4db31;
+    border-radius: 100%;
+    ">03</span>
+					<p style="font-size:30px;">CAR 3</p>
+						<p style="font-size:25px; opacity: 0.7;">act that a reader will be<br> distracted</p>
+						<a href="#"><img src="images/img-2.png" ></a>
+
+				</div>
+				
+			</div>
+		</div>
+			<p style="font-size: 50px;text-align: center;padding-top: 30PX;">Why Ride With Uloax</p>
+		<div class="col-sm-8">
+
+			<div style="width:40%">
+				<img src="images/img-3.png" style="float: right;margin-right: 30px;">
+		
+
+				</div>
+				<div style="width:60%">
+					<p style="font-size:30px;opacity: 0.8;">Uloax for Every Pocket</p>
+					<p style="opacity: 0.9;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at<br> its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as It is<br>a long established fact that a reader will be distracted by the readable c</p>
+					<a href="#" class="book-btn">BOOK</a>
+				
+				</div>
+				
+			</div>
+			<div class="col-sm-8">
+				<div style="width:60%">
+					<p style="font-size:30px;opacity: 0.8;float: right;">Secure and Safer Rides</p>
+					<p style="opacity: 0.9;float: right;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at<br> its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as It is<br>a long established fact that a reader will be distracted by the readable c</p>
+					<a href="#" class="book-btn" style="float:right;margin-top: 20px;">BOOK</a>
+					
+				</div>
+
+				<div style="width:40%">
+					<img src="images/img-4.png" style="margin-left: 30px;">
+					
+				</div>
+			</div>
+			<div class="col-sm-8">
+
+			<div style="width:40%">
+				<img src="images/img-5.png" style="float: right;margin-right: 30px;">
+		
+
+				</div>
+				<div style="width:60%">
+					<p style="font-size:30px;opacity: 0.8;">Uloax for Every Pocket</p>
+					<p style="opacity: 0.9;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at<br> its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as It is<br>a long established fact that a reader will be distracted by the readable c</p>
+					<a href="#" class="book-btn">BOOK</a>
+				
+				</div>
+				
+			</div>
+			<div class="col-sm-8">
+				<div style="width:60%">
+					<p style="font-size:30px;opacity: 0.8;float: right;">Secure and Safer Rides</p>
+					<p style="opacity: 0.9;float: right;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at<br> its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as It is<br>a long established fact that a reader will be distracted by the readable c</p>
+					<a href="#" class="book-btn" style="float:right;margin-top: 20px;">BOOK</a>
+					
+				</div>
+
+				<div style="width:40%">
+					<img src="images/img-5.png" style="margin-left: 30px;">
+					
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div>
+		     <img src="images/img-6.png" style="width:125%">
+					
+				</div>
+
+				<div>
+					<img src="images/img-7.png" style="    height: 70%;">
+					
+				</div>
+			</div><br><br><br><br><br>
+      <footer style="width:100%;height: auto; display: inline-flex;">
+      	<div style="width:25%;background: black;">
+      		<h1 style="text-align:center;color: white;">Address</h1>
+      		<p style="color:white;text-align: center;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+      		
+      	</div>
+      	<div style="width:25%;background: black;text-align: center;">
+      		<h1 style="color: white;">Links</h1>
+      		<img src="images/bulit-icon.png">
+      		<a href="#" class="link">Home</a><br><br>
+      		<img src="images/bulit-icon.png">
+      		<a href="#" class="link">About</a><br><br>
+      		<img src="images/bulit-icon.png">
+      		<a href="#" class="link" >Taxi</a><br><br>
+      		<img src="images/bulit-icon.png">
+      		<a href="#" class="link">Booking</a><br><br>
+      		<img src="images/bulit-icon.png">
+      		<a href="#" class="link">Contact Us</a><br><br>
+      		
+      		
+      	</div>
+      	<div style="width:25%;background: black;text-align: center;">
+      		<h1 style="text-align:center;color: white;">Follow Us</h1>
+      		<img src="images/fb-icon.png">
+      		<a href="#" class="link">Facebook</a><br><br>
+      		<img src="images/twitter-icon.png">
+      		<a href="#" class="link">Twitter</a><br><br>
+      		<img src="images/in-icon.png">
+      		<a href="#" class="link" >Linkedin</a><br><br>
+      		<img src="images/youtube-icon.png">
+      		<a href="#" class="link">Youtube</a><br><br>
+      		<img src="images/instagram-icon.png">
+      		<a href="#" class="link">Instagram</a><br><br>
+      		
+      	</div>
+      	<div style="width:25%;background: black;text-align: center;">
+      		<h1 style="text-align:center;color: white;">Newsletter</h1>
+      		<form>
+      			<input type="text" name="email" placeholder="Enter Your Email" style="width: 280px;
+    height: 45px;
+    font-size: 22px;
+    border-radius: 13px;"><br><br>
+      			<button style="background:#fecf3d;font-size: 24px;color: white;padding: 8px 15px 8px 15px;border-radius: 15px; cursor: pointer;">SUBCRIBE</button>
+      		</form>
+      		
+      	</div>
+      	
+      </footer> 
+      <p style="font-size:20px;text-align:center;">2021 All Rights Reserved.Designed By <span style="color: orange;">Shakeel Ahmad</span> </p>
+
+			
+				
+			</div>
+
+		
+
+</body>
+</html>
